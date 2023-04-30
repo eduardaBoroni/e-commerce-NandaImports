@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+
+*{
+    margin:0; padding:0;
+    color:#f2f5f7;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+nav{
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background-color: #000000;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+}
+
+.form{
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 3rem;
+}
+
+.form-header{
+
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 3vh 3vw;
+    text-align: end;
+    width: 20vw;
+    height: 0vh;
+}
+
+.form-header > h1{
+
+    color: #ffff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.logo{
+    padding: 1vh 3vw;
+    text-align: left;
+    width: 8vw;
+}
+
+.logo img{
+    height: auto;
+    width: 4rem;
+}
+
+body{
+
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/1845998-fundo-preto-e-dourado-poligonal-abstrato-gr%C3%A1tis-vetor.jpg);
+}
+
+.main-login{
+
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c00;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.card-login{
+
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #050505f3;
+    
+    box-shadow: 0px 10px 10px #e6a0091e;
+
+   
+}
+
+
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+    height: 25%;
+  
+  }
+
+  .input-group .textfield{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width: 250px;
+  
+  }
+.textfield{
+   
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width: 500px;
+}
+
+.textfield  input {
+
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000002c;
+    
+}
+
+
+.textfield  input:hover{
+    background-color: #eeeeee62;
+}
+
+.textfield  label{
+
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.textfield  input::placeholder{
+    color: #000000;
+}
+
+
+.btn-login{
+
+    width:  100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-abstrato-na-cor-dourada-da-tend%C3%AAncia-do-ano-colora%C3%A7%C3%A3o-dourado-amostra-em-cores-de-tend%C3%AAncias-efeito-met%C3%A1lico-folha-209227141.jpg);
+    background-color: #b97e009c;
+    cursor: pointer;
+   
+}
+
+.btn-login:hover{
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-textured-dourado-com-do-efeito-brilho-muitos-usos-para-os-fundos-as-pinturas-capas-livro-poupan-de-tela-o-p-gina-da-web-cart-142910418.jpg);
+    background-color: #000000;
+    
+    
+}

@@ -1,0 +1,62 @@
+.button{
+    border-style: none;
+    height: 40px;
+    padding: 6px 12px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: box-shadow .6s ease;
+}
+
+.button.blue{
+    border: none;
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-abstrato-na-cor-dourada-da-tend%C3%AAncia-do-ano-colora%C3%A7%C3%A3o-dourado-amostra-em-cores-de-tend%C3%AAncias-efeito-met%C3%A1lico-folha-209227141.jpg);
+    background-color: #b97e00ab ;
+    padding: 0.4rem 1rem;
+    border-radius:5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 750;
+    color: rgb(0, 0, 0);
+    position: right;
+}
+
+.button.blue:hover {
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-textured-dourado-com-do-efeito-brilho-muitos-usos-para-os-fundos-as-pinturas-capas-livro-poupan-de-tela-o-p-gina-da-web-cart-142910418.jpg);
+    background-color: #b97e00a9;
+}
+
+button.green{
+    background-color: #13CE66;
+    border-radius: 0%;
+}
+
+button.red{
+    background-color: #FF4949;
+    border-radius: 0%;
+}
+
+
+
+
+
+@media(max-width:480px){
+    .button.mobile{
+        color:transparent;
+        font-size:0;
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        position:fixed;
+        top: 90vh;
+        left: 80vw;
+    }
+    .button.mobile::before{
+        content: "+";
+        color:black;
+        font-size:2rem;
+        width:100%;
+        height:100%;
+    }
+}

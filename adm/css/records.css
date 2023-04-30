@@ -1,0 +1,55 @@
+.records{
+    width: 100%;
+    user-select: none;
+    text-align: left;
+}
+
+.records th{
+    height: 50px;
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-abstrato-na-cor-dourada-da-tend%C3%AAncia-do-ano-colora%C3%A7%C3%A3o-dourado-amostra-em-cores-de-tend%C3%AAncias-efeito-met%C3%A1lico-folha-209227141.jpg);
+  
+    padding-left: 20px;
+    font-size: 1.2rem; 
+      
+}
+.records td{
+    height: 50px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255); 
+}
+
+.records th:last-child,
+.records td:last-child{
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.records tr:hover{
+    background-color:  rgba(255, 197, 8, 0.144) ;
+}
+
+@media(max-width:480px){
+    .records{
+        border-spacing: 5px;
+    }
+    .records thead{
+        display:none;
+    }
+    .records tr{
+        box-shadow: 0 1px 3px var(--shadow-color);
+    }
+    .records td:not(:first-child){
+        display:flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .records td{
+        margin:10px 0;
+    }
+
+    .records tr:hover{
+        background-color: inherit;
+    }
+}

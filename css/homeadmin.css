@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+
+*{
+    margin:0; padding:0;
+    color:#f2f5f7;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+nav{
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background-color: #000000;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+    align-items: space-between;
+}
+
+
+
+.form-header{
+
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 3vh 3vw;
+    text-align: end;
+    width: 20vw;
+    height: 0vh;
+}
+
+.form-header > h1{
+
+    color: #ffff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.logo{
+    padding: 1vh 3vw;
+    text-align: left;
+    width: 8vw;
+}
+
+.logo img{
+    height: auto;
+    width: 4rem;
+}
+
+body{
+
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-image: url(https://media.istockphoto.com/photos/modern-brick-wall-3d-rendering-picture-id1140265911?k=20&m=1140265911&s=612x612&w=0&h=gveFqtYtsaq7iVTeCz-tbIAjBfUeNJV3p4WBgTIZHuk=);
+}
+
+.main-login{
+
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c00;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.card-login{
+
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #000000ef;
+    
+    box-shadow: 10px 10px 10px 5px #ffd10441;
+}
+
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input {
+
+   width: 100%;
+   border: none;
+   border-radius: 3px;  
+   padding: 15px;
+   background: #ffffff;
+   color: black;
+   font-size: 12pt;
+   box-shadow: 0px 10px 40px #00000056;
+   outline: none;
+   box-sizing: border-box;
+}
+
+.textfield > label{
+
+color: #f0ffffde;
+margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #000000;
+}
+
+.btn-login{
+
+    width:  100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: black;
+    background-color: #fdc11c;
+    cursor: pointer;
+   
+}
+
+.btn-login:hover{
+    background-image: url(https://media.istockphoto.com/photos/gold-wall-picture-id483586507?k=20&m=483586507&s=612x612&w=0&h=I3PK21dwXtTV_ro2r67MjH9eejL3EDM8y4-oFmUgMV4=);
+    background-color: #000000;
+    
+    
+}
+
+.container{
+    background-color: #000000;
+}
+
